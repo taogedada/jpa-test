@@ -4,7 +4,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 
 @SpringBootApplication(scanBasePackages = "cn.rivamed.*")
 public class MyApplication {
-    public static void main(String[] args) {
+    public static void main(String[] args) {String a = "13";
         SpringApplication.run(MyApplication.class, args);
     }
 }
